@@ -1,3 +1,6 @@
+"some source of the git tutorial"
+https://www.youtube.com/watch?v=hrTQipWp6co
+
 ls = list the files and 
      the folder in the current folder
 
@@ -5,3 +8,32 @@ cd = change directory
    example-- cd ~/desktop/GIT-tutorial
 
    creating the version
+1... git init--Create an empty Git repository or reinitialize an existing one
+ex -->    Users\risqu\desktop\GIT-tutorial> git init
+
+2....git status--It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. 
+ex--> PS C:\Users\risqu\desktop\GIT-tutorial> git status
+On branch master
+No commits yet
+
+3.. git add command adds new or changed files in your working directory 
+example syntax-- git add . which is all current files will be add
+
+PS C:\Users\risqu\desktop\GIT-tutorial>  git add .
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   GIT_hub_tutorial.txt
+        new file:   config.js
+        new file:   syntax.txt
+
+4.. git checkout ---> means to go back the prevous version
+
+5.. git log --all ---> means to see all the version that we made
+
+PS C:\Users\risqu\desktop\GIT-tutorial> git log --all
+commit 6d4178afff25ec9a222cc3a124843daa14793e2a (HEAD -> master)
+Author: risquaMussa <rismussa@gmail.com>
+Date:   Fri Jan 5 23:09:22 2024 -0500
+
+6... create .gitignore file to hide ur secret information 
