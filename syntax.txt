@@ -1,0 +1,7 @@
+ls = list the files and 
+     the folder in the current folder
+
+cd = change directory
+   example-- cd ~/desktop/GIT-tutorial
+
+   creating the version
